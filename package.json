@@ -1,0 +1,17 @@
+{
+  "name": "simple-money-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "rm -rf node_modules apps/*/node_modules"
+  }
+}
