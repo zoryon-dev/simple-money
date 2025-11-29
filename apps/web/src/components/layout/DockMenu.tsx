@@ -1,7 +1,7 @@
 // Simple Money - Dock Menu Component
 // Menu dock inferior usando MagicUI
 
-import { LayoutDashboard, ArrowLeftRight, PiggyBank, Settings, TrendingUp, PieChart } from 'lucide-react'
+import { LayoutDashboard, ArrowLeftRight, PiggyBank, Settings, TrendingUp, PieChart, MessageSquare, Zap } from 'lucide-react'
 import { Dock, DockIcon } from '@/components/ui/dock'
 import { useLocation } from 'wouter'
 
@@ -17,6 +17,18 @@ const dockItems = [
     label: 'Transações',
     icon: ArrowLeftRight,
     href: '/transactions',
+  },
+  {
+    id: 'ai-chat',
+    label: 'CFO Virtual',
+    icon: MessageSquare,
+    href: '/ai-chat',
+  },
+  {
+    id: 'ai-insights',
+    label: 'Insights',
+    icon: Zap,
+    href: '/ai-insights',
   },
   {
     id: 'forecast',

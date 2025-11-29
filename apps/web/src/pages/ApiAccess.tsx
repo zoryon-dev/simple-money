@@ -422,7 +422,7 @@ export function ApiAccessPage() {
                                         </div>
 
                                         <div className="rounded-lg overflow-hidden border mt-4">
-                                            <div className="bg-muted px-4 py-2 border-b text-xs font-medium text-muted-foreground">Exemplo: Input -> Output</div>
+                                            <div className="bg-muted px-4 py-2 border-b text-xs font-medium text-muted-foreground">Exemplo: Input &rarr; Output</div>
                                             <pre className="bg-slate-950 text-slate-50 p-4 text-xs font-mono overflow-x-auto">
 {`// Request
 { "text": "Almoço no Madero 120 reais" }
@@ -466,7 +466,6 @@ export function ApiAccessPage() {
                                     </div>
                                 </div>
                             )}
-}
 
                         </div>
                     </div>
